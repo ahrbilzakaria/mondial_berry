@@ -10,7 +10,7 @@ import { HeaderNbCard } from "./global_components/headerNbCard";
 export default function Home() {
   return (
     <div className="flex justify-center ">
-      <header className="w-full h-screen relative flex  overflow-hidden rounded-[3rem] border-10 border-white">
+      <header className="w-full h-[80vh] md:h-[90vh] relative flex items-end overflow-hidden rounded-[3rem] border-10 border-white">
         <img
           src="/BackgroundHome.png"
           alt=""
@@ -22,8 +22,8 @@ export default function Home() {
           className=" h-screen object-cover object-right w-full  md:hidden   absolute -z-10  "
         />
 
-        <div className=" w-[80%] h-[60%] mx-auto text-white  flex flex-col justify-between  md:items-strat">
-          <div >
+        <div className=" w-[80%] h-[80%] mx-auto text-white  flex flex-col   md:items-strat">
+          <div>
             {/* medium to large title  */}
             <h1 className=" font-bold md:text-6xl lg:text-7xl  text-left uppercase hidden md:block">
               Leader{" "}
@@ -52,10 +52,10 @@ export default function Home() {
             <VoirNotreGamme />
           </div>
           <HeaderCard />
-          <div className="flex gap-6 ">
-            <HeaderNbCard/>
-            <HeaderNbCard/>
-            <HeaderNbCard/>
+          <div className="flex md:gap-6 gap-2 h-full items-start md:items-end mt-12 ">
+            <HeaderNbCard />
+            <HeaderNbCard />
+            <HeaderNbCard />
           </div>
         </div>
       </header>
