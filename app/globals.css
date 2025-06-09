@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
-
 
 @custom-variant dark (&:is(.dark *));
 
@@ -54,12 +52,12 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
   --primary: #093101;
-  --primary-foreground: #F3FFE4;
+  --primary-foreground: #f3ffe4;
   --secondary: #941936;
-  --secondary-foreground: #FFF5F7;
+  --secondary-foreground: #fff5f7;
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
-  --accent: #7BA249;
+  --accent: #7ba249;
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
@@ -123,7 +121,3 @@
   }
 }
 
-* {
-    font-family: "Montserrat", sans-serif;
-    
-}
