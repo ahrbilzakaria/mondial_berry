@@ -7,7 +7,7 @@ import { HeaderNbCard } from "../../global_components/headerNbCard";
 
 export default function Hero() {
   return (
-    <header className="w-full h-[80vh] md:h-[90vh] relative flex items-end overflow-hidden rounded-[3rem] border-[10px] border-white">
+    <header className="w-full h-[80vh] md:h-[90vh] relative flex items-end  rounded-[3rem] border-[10px] border-white">
       <img
         src="/BackgroundHome.png"
         alt=""

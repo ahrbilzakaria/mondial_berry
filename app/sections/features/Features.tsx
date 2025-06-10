@@ -12,7 +12,7 @@ export default function Features() {
         <p className="z-10 text-4xl lg:text-5xl font-bold text-white uppercase">
           fruits
           <br />
-          <span className="font-normal">de qualité</span>
+          <span className="font-light">de qualité</span>
         </p>
         <img
           src="/accueil/SingleRaspberry.png"
@@ -24,7 +24,7 @@ export default function Features() {
         <p className="z-10 text-2xl md:text-4xl lg:text-5xl font-bold text-white uppercase">
           Plus vert que ça,
           <br />
-          <span className="font-normal text-[#90FF79]">c'est impossible</span>
+          <span className="font-light text-[#90FF79]">c'est impossible</span>
         </p>
         <img
           src="/accueil/SingleStrawberry.png"
