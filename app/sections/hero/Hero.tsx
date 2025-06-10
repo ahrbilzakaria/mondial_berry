@@ -26,7 +26,7 @@ export default function Hero() {
           {/* medium to large title  */}
           <h1 className="font-bold md:text-6xl lg:text-7xl text-left uppercase hidden md:block">
             Leader{" "}
-            <span className="font-thin">
+            <span className="font-light">
               marocain <br />
               des
             </span>{" "}

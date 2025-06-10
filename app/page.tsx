@@ -3,6 +3,8 @@ import About from "./sections/about/About";
 import Features from "./sections/features/Features";
 import Engagements from "./sections/engagements/Engagements";
 import { Services } from "./sections/services/Services";
+import Type from "./sections/types/Type";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       <Features />
       <Engagements />
       <Services />
+      <Type />
     </div>
   );
 }
