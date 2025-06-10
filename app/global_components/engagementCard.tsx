@@ -9,7 +9,7 @@ type EngagementCardProps = {
 export const EngagementCard = ({ type , url, content }: EngagementCardProps) => {
   if (type === "green") {
     return (
-      <div className="flex flex-col items-start gap-4 p-6 md:p-8 bg-[#F3FFE4] rounded-2xl w-100 max-sm:w-full">
+      <div className="flex flex-col items-start gap-4 p-6 md:p-8 bg-[#F3FFE4] rounded-2xl w-100 max-sm:w-full h-70 ">
         <img
           src={url}
           alt=""
@@ -22,7 +22,7 @@ export const EngagementCard = ({ type , url, content }: EngagementCardProps) => 
     );
   }else{
     return (
-      <div className="flex flex-col items-start gap-4 p-6 md:p-8 bg-[#FFF5F7] rounded-2xl w-100 max-sm:w-full ">
+      <div className="flex flex-col items-start gap-4 p-6 md:p-8 bg-[#FFF5F7] rounded-2xl w-100 max-sm:w-full h-70 ">
         <img
           src={url}
           alt=""

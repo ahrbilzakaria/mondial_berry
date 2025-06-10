@@ -8,11 +8,11 @@ function NavBar() {
   console.log(pathName);
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 w-[80%] mx-auto rounded-[3.75rem] bg-white/10   backdrop-blur-[22px] mt-6 fixed top-0 left-1/2 transform -translate-x-1/2 z-50">
+    <nav className="flex items-center justify-between px-6 md:py-4 py-2 w-[80%] mx-auto rounded-[3.75rem] bg-white/10   backdrop-blur-[22px] mt-6">
       <img
         src="/WhiteLogo.png"
         alt="Logo Mondial Berry"
-        className="h-10 md:h-12 "
+        className="h-10 md:h-12 scale-80 md:scale-100"
       />{" "}
       <ul className="gap-4 text-white font-light lg:flex hidden">
         <li>

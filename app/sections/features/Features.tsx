@@ -8,8 +8,8 @@ export default function Features() {
           className="object-cover rounded-[1rem] h-full w-full"
         />
       </div>
-      <div className="bg-secondary px-6 py-6 flex justify-center flex-col overflow-hidden relative row-span-1 md:row-span-2 rounded-[1rem]">
-        <p className="z-10 text-4xl lg:text-5xl font-bold text-white uppercase">
+      <div className="bg-secondary px-4 py-4 md:px-6 md:py-12 flex justify-center flex-col overflow-hidden relative row-span-1 md:row-span-2 rounded-[1rem]">
+        <p className="z-10 text-3xl lg:text-5xl font-bold text-white uppercase">
           fruits
           <br />
           <span className="font-light">de qualité</span>
@@ -20,7 +20,7 @@ export default function Features() {
           className="absolute -bottom-40 max-sm:-bottom-35 max-sm:-right-20 -right-10 -z-0 max-sm:scale-75"
         />
       </div>
-      <div className="w-full h-full bg-primary px-6 py-6 flex justify-start items-end text-right flex-col overflow-hidden relative row-span-1 md:row-span-2 rounded-[1rem]">
+      <div className="w-full h-full bg-primary px-4 py-4 md:px-6 md:py-6 flex justify-start items-end text-right flex-col overflow-hidden relative row-span-1 md:row-span-2 rounded-[1rem]">
         <p className="z-10 text-2xl md:text-4xl lg:text-5xl font-bold text-white uppercase">
           Plus vert que ça,
           <br />

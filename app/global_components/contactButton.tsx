@@ -16,7 +16,7 @@ export function ContactButton() {
   return (
     <Link
       href="/contact"
-      className="flex gap-4 overflow-hidden rounded-4xl items-center bg-accent px-4 py-2 tracking-wide md:text-2xl text-xl relative border-white/50 border-1"
+      className="flex gap-4 overflow-hidden rounded-4xl items-center bg-accent px-4 py-2 tracking-wide md:text-2xl text-lg relative border-white/50 border-1"
     >
       Contactez-nous
       <div className="text-accent p-1 md:p-2 rounded-4xl bg-white">
@@ -33,7 +33,7 @@ export function VoirNotreGamme() {
   return (
     <Link
       href="/products"
-      className="flex gap-4  overflow-hidden rounded-4xl items-center bg-secondary/25 px-4 py-2 md:text-2xl text-xl relative tracking-wide border-white/50 border-1"
+      className="flex gap-4  overflow-hidden rounded-4xl items-center bg-secondary/25 px-4 py-2 md:text-2xl text-lg relative tracking-wide border-white/50 border-1"
     >
       Voir notre gamme
       <div className="text-secondary p-1 md:p-2 rounded-4xl bg-white">
