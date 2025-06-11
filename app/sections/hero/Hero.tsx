@@ -8,25 +8,14 @@ import { HeaderNbCard } from "../../global_components/headerNbCard";
 
 export default function Hero() {
   return (
-    <header className="w-full h-[80vh] md:h-[90vh] relative flex  flex-col rounded-[3rem] border-[10px] border-white overflow-hidden">
+    <header className=" bg-hero w-full h-[80vh] md:h-[100vh] relative flex  flex-col rounded-[3rem] border-[10px] border-white overflow-hidden ">
       <NavBar />
-      <img
-        src="/BackgroundHome.png"
-        alt=""
-        className="md:w-screen object-cover hidden md:block  h-screen absolute -z-10"
-      />
-      <img
-        src="/BackgroundHome.png"
-        alt=""
-        className="h-screen object-cover object-right w-full md:hidden absolute -z-10"
-      />
-
       <div className="w-[80%] h-[80%] mx-auto text-white flex flex-col md:items-start mt-12">
         <div>
           {/* medium to large title  */}
           <h1 className="font-bold md:text-6xl lg:text-7xl text-left uppercase hidden md:block">
             Leader{" "}
-            <span className="font-light">
+            <span className="font-thin">
               marocain <br />
               des
             </span>{" "}
@@ -34,9 +23,9 @@ export default function Hero() {
             premium
           </h1>
           {/* small title  */}
-          <h1 className="font-bold text-3xl text-center leading-11 uppercase sm:block md:hidden">
+          <h1 className="font-bold text-3xl text-center leading-8 uppercase sm:block md:hidden">
             Leader{" "}
-            <span className="font-thin">
+            <span className="font-normal">
               marocain des <br />
             </span>{" "}
             fruits rouges <br />
@@ -51,7 +40,7 @@ export default function Hero() {
           <VoirNotreGamme />
         </div>
         <HeaderCard />
-        <div className="md:flex md:gap-6 gap-2 mt-8 md:mt-14 hidden flex-wrap">
+        <div className="md:flex md:gap-6 gap-2 mt-8 md:mt-14 hidden flex-wrap ">
           <HeaderNbCard />
           <HeaderNbCard />
           <HeaderNbCard />

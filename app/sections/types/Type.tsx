@@ -2,7 +2,7 @@ import { DecouvrezPlus } from "@/app/global_components/contactButton";
 
 export default  function Type () {
   return (
-    <section className="w-[80%] mx-auto flex flex-col items-center justify-between text-white mt-12 relative md:p-14 p-8 gap-6 md:gap-10 overflow-hidden rounded-2xl md:rounded-4xl">
+    <section className="w-[80%] mx-auto flex flex-col items-center justify-between text-white mt-12 bg-types md:p-14 p-8 gap-6 md:gap-10  rounded-2xl md:rounded-4xl">
       <div className="flex md:gap-4  items-center bg-[#0931018F] md:px-6 pr-3 md:py-1 rounded-full border border-white/50">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ export default  function Type () {
               y2="16.493"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
+              <stop stopColor="white" />
               <stop offset="1" stop-color="#5B8C51" />
             </linearGradient>
             <linearGradient
@@ -76,11 +76,11 @@ export default  function Type () {
       </h2>
       <DecouvrezPlus />
 
-      <img
+      {/* <img
         src="/accueil/img4.png"
         alt=""
         className="absolute inset-0 -z-10 w-full object-cover h-full"
-      />
+      /> */}
     </section>
   );
 }

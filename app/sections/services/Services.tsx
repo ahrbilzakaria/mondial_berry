@@ -2,14 +2,14 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 export const Services = () => {
   return (
-    <section className="relative py-12 overflow-hidden">
+    <section className="relative py-12 overflow-hidden bg-services">
       {/* Background image with better accessibility */}
-      <img
+      {/* <img
         src="/accueil/img2.png"
         alt="Decorative background"
         className="w-full h-full object-cover absolute -z-10 inset-0"
         aria-hidden="true"
-      />
+      /> */}
 
       <div className="w-[80%] mx-auto">
         <div className="flex flex-col items-center text-center ">

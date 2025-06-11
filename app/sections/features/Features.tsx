@@ -1,6 +1,6 @@
 export default function Features() {
   return (
-    <div className="grid grid-rows-3 grid-cols-1 md:grid-cols-2 md:grid-rows-4 gap-4 w-[80%] mx-auto mt-18 md:mt-24">
+    <section className="grid grid-rows-3 grid-cols-1 md:grid-cols-2 md:grid-rows-4 gap-4 w-[80%] mx-auto mt-18 md:mt-24">
       <div className="row-span-1 md:row-span-4">
         <img
           src="/accueil/img1.png"
@@ -32,6 +32,6 @@ export default function Features() {
           className="absolute -bottom-110 max-sm:-bottom-45 -left-50 max-sm:-left-30 -z-0"
         />
       </div>
-    </div>
+    </section>
   );
 }
