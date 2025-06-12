@@ -130,13 +130,13 @@
 
 }
 
-.bg-hero {
+/* .bg-hero {
   background-image: url("/BackgroundHome.webp");
   background-size: cover;
   background-position: right;
   background-attachment: fixed;
   
-}
+} */
 
 .bg-services {
   background-image: url("/accueil/img2.webp");

@@ -115,15 +115,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className={montserrat.variable}>
-      <head>
-        {/* Preload the hero image */}
-        <link
-          rel="preload"
-          as="image"
-          href="/BackgroundHome.webp"
-          type="image/webp"
-        />
-      </head>
       <body className={montserrat.className}>
         {children}
         <ScrollToTop />
