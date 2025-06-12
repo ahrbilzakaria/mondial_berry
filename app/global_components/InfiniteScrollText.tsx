@@ -118,7 +118,7 @@ export default function InfiniteScrollText({
       >
         {" "}
         <span
-          className={`lg:text-[10rem] md:text-[8rem] text-[6rem]  font-bold mx-8 ${className}`}
+          className={`lg:text-[10rem] md:text-[8rem] text-[5rem]  font-bold ${className}`}
         >
           {scrollingText.repeat(10)}
         </span>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NavBar from "./global_components/navBar";
 import ScrollToTop from "./global_components/scroll";
 import localFont from "next/font/local";
+import { Toaster } from "sonner";
 
 const montserrat = localFont({
   src: [
@@ -117,6 +117,7 @@ export default function RootLayout({
       <body className={montserrat.className}>
         {children}
         <ScrollToTop />
+        <Toaster  />
       </body>
     </html>
   );

@@ -8,7 +8,7 @@ import { HeaderNbCard } from "../../global_components/headerNbCard";
 
 export default function Hero() {
   return (
-    <header className=" bg-hero w-full h-[80vh] md:h-[100vh] relative flex  flex-col rounded-[3rem] border-[10px] border-white overflow-hidden ">
+    <header className=" bg-hero w-full h-screen relative flex  flex-col rounded-[3rem] border-[10px] border-white overflow-hidden ">
       <NavBar />
       <div className="w-[80%] h-[80%] mx-auto text-white flex flex-col md:items-start mt-12">
         <div>
