@@ -8,9 +8,10 @@ import { HeaderNbCard } from "../../global_components/headerNbCard";
 
 export default function Hero() {
   return (
-    <header className=" bg-[url(/BackgroundHome.webp)] bg-no-repeat bg-cover w-full h-screen relative flex  flex-col rounded-[3rem] border-[10px] border-white overflow-hidden ">
+    <header className="  w-full h-screen relative flex  flex-col rounded-[3rem] border-[10px] border-white overflow-hidden ">
       <NavBar />
-      <div className="w-[80%] h-[80%] mx-auto text-white flex flex-col md:items-start mt-12">
+      <img src="/BackgroundHome.webp" alt="" className="absolute inset-0 object-cover object-right w-full h-full -z-10" />
+      <div className="w-[80%] h-[80%] mx-auto text-white flex flex-col md:items-start max-sm:justify-center max-sm:-mt-10 mt-12">
         <div>
           {/* medium to large title  */}
           <h1 className="font-bold md:text-6xl lg:text-7xl text-left uppercase hidden md:block">
