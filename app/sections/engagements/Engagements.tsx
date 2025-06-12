@@ -27,7 +27,7 @@ export default function Engagements() {
       </div>
 
       <img
-        src="/accueil/img3.png"
+        src="/accueil/img3.webp"
         alt=""
         className="absolute max-sm:-bottom-0 -bottom-60 left-1/2 -translate-x-1/2 object-center -z-10 mix-blend-hard-light max-sm:scale-180 opacity-65 "
       />

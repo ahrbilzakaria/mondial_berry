@@ -131,14 +131,14 @@
 }
 
 .bg-hero {
-  background-image: url("/BackgroundHome.png");
+  background-image: url("/BackgroundHome.webp");
   background-size: cover;
   background-position: right;
   background-attachment: fixed;
 }
 
 .bg-services {
-  background-image: url("/accueil/img2.png");
+  background-image: url("/accueil/img2.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@
 }
 
 .bg-types {
-  background-image: url("/accueil/img4.png");
+  background-image: url("/accueil/img4.webp");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;

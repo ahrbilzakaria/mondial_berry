@@ -3,7 +3,7 @@ export default function Features() {
     <section className="grid grid-rows-3 grid-cols-1 md:grid-cols-2 md:grid-rows-4 gap-4 w-[80%] mx-auto mt-18 md:mt-24">
       <div className="row-span-1 md:row-span-4">
         <img
-          src="/accueil/img1.png"
+          src="/accueil/img1.webp"
           alt=""
           className="object-cover rounded-[1rem] h-full w-full"
         />

@@ -39,24 +39,24 @@ const Content = [
     title: "EMBALLAGE PERSONNALISÉ SOLUTIONS",
     description:
       "Nos installations d’emballage sont équipées des dernières technologies,  garantissant que nos produits parviennent à nos clients dans des  conditions optimales, prêts à être vendus au détail ou à être  transformés.",
-    image: "/accueil/services/s2.png",
+    image: "/accueil/services/s2.webp",
   },
   {
     title: "DISTRIBUTION MONDIALE RÉSEAU",
     description:
       "nous livrons nos fruits de première qualité. Notre expertise logistique  garantit une livraison rapide et efficace, en maintenant la fraîcheur et la qualité de nos produits de la ferme à la table.",
-    image: "/accueil/services/s3.png",
+    image: "/accueil/services/s3.webp",
   },
   {
     title: "AGRICULTURE DURABLELES PRATIQUES",
     description:
       "Nous accordons la priorité à la santé des sols, à la conservation de  l’eau et à la biodiversité, en veillant à ce que nos méthodes agricoles  soient non seulement productives mais également respectueuses de  l’environnement.",
-    image: "/accueil/services/s4.png",
+    image: "/accueil/services/s4.webp",
   },
   {
     title: "FRUITS ROUGESCULTURE ET EXPORTATION",
     description:
       "Nos fermes ultramodernes d’Agadir et de Moulay Bousselham garantissent un approvisionnement constant en fruits frais et délicieux, dans le respect des normes de qualité les plus élevées.",
-    image: "/accueil/services/s1.png",
+    image: "/accueil/services/s1.webp",
   },
 ];
