@@ -95,7 +95,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
         className={`bg-secondary flex flex-col md:items-end items-center md:p-20 p-8   md:w-[80%] w-full max-w-7xl mx-auto md:rounded-2xl  mt-10 relative bg-gradient-to-br from-[#FF7C9B] to-[#941936] overflow-hidden`}
       >
         <img
-          src="/accueil/RasberryContact.png"
+          src="/accueil/RasberryContact.webp"
           alt=""
           className="absolute md:-left-80 md:-bottom-80 -left-40 -bottom-20 md:scale-75 "
         />
@@ -175,7 +175,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
                   <FormItem>
                     <FormControl>
                       <textarea
-                        className=" h-[150px] rounded-md  bg-white/50 px-3 py-2 text-sm md:text-lg text-black  placeholder:text-muted-foreground focus-visible:outline-none   disabled:cursor-not-allowed disabled:opacity-50 resize-none backdrop-blur-2xl "
+                        className=" h-[150px] rounded-md  bg-white/50 px-3 py-2 text-sm md:text-lg text-black  placeholder:text-black/60   focus-visible:outline-none   disabled:cursor-not-allowed disabled:opacity-50 resize-none backdrop-blur-2xl "
                         placeholder="Message..."
                         {...field}
                       />
@@ -205,7 +205,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
         className={`bg-secondary flex flex-col md:items-end items-center justify-center md:p-40 p-8  w-full mx-auto rounded-[3rem] h-full relative bg-gradient-to-br from-[#FF7C9B] to-[#941936] overflow-hidden`}
       >
         <img
-          src="/accueil/RasberryContact.png"
+          src="/accueil/RasberryContact.webp"
           alt=""
           className="absolute md:-left-80 md:-bottom-80 -left-40 -bottom-20 md:scale-75 "
         />
@@ -284,7 +284,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
                     <FormItem>
                       <FormControl>
                         <textarea
-                          className=" h-[150px] rounded-md  bg-white/50 px-3 py-2 text-sm md:text-lg  placeholder:text-muted-foreground focus-visible:outline-none   disabled:cursor-not-allowed disabled:opacity-50 resize-none backdrop-blur-2xl "
+                          className=" h-[150px] rounded-md  bg-white/50 px-3 py-2 text-sm md:text-lg  placeholder:text-black focus-visible:outline-none   disabled:cursor-not-allowed disabled:opacity-50 resize-none backdrop-blur-2xl "
                           placeholder="Message..."
                           {...field}
                         />

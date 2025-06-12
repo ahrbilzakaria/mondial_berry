@@ -146,6 +146,15 @@
 
 }
 
+.bg-footer {
+  background-image: url("/footer.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
 .zoom-image-in {
   @apply transition-transform duration-300 ease-in-out;
 }
