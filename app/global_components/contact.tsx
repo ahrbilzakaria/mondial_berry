@@ -15,6 +15,8 @@ import { z } from "zod";
 import { useState } from "react";
 import AnimatedSendButton from "./sendButton";
 import { toast } from "sonner";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 type ContactProps = {
   version?: "accueil" | "page";
@@ -48,10 +50,9 @@ export const Contact = ({ version }: ContactProps) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
-const onSubmit = async (values: z.infer<typeof formSchema>) => {
-    
+  const onSubmit = async (values: z.infer<typeof formSchema>) => {
     console.log("Submitted values:", values);
-    try{
+    try {
       setIsSubmitting(true);
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -67,27 +68,22 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
         message: "",
       });
       const { message } = await response.json();
-      
+
       toast(message);
-      
-      
+
       setTimeout(() => {
         setIsSuccess(false);
       }, 2000);
-    }catch(e){
+    } catch (e) {
       if (e instanceof Error) {
         toast(e.message);
       } else {
         toast("Une erreur est survenue.");
       }
-
-    }finally{
-      setIsSubmitting(false)
+    } finally {
+      setIsSubmitting(false);
     }
-    
-
   };
-
 
   if (version === "accueil") {
     return (
@@ -109,6 +105,17 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
               Notre service client est là pour vous aider. Pour toute question
               sur nos produits, contactez-nous.
             </p>
+            <div className="flex gap-4 mt-4 items-center max-sm:justify-center">
+              <Link href="https://www.linkedin.com/company/rasberry-maroc/">
+                <Linkedin />
+              </Link>
+              <Link href="https://www.instagram.com/rasberrymaroc/">
+                <Instagram />
+              </Link>
+              <Link href="https://www.facebook.com/rasberrymaroc/">
+                <Facebook />
+              </Link>
+            </div>
           </div>
 
           <Form {...form}>
@@ -156,7 +163,6 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
                 render={({ field }) => (
                   <FormItem>
                     <FormControl>
-                      
                       <Input
                         type="Téléphone"
                         placeholder="Votre numéro"
@@ -199,7 +205,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
         </div>
       </section>
     );
-  }else{
+  } else {
     return (
       <section
         className={`bg-secondary flex flex-col md:items-end items-center justify-center md:p-40 p-8  w-full mx-auto rounded-[3rem] h-full relative bg-gradient-to-br from-[#FF7C9B] to-[#941936] overflow-hidden`}
@@ -219,6 +225,17 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
                 Notre service client est là pour vous aider. Pour toute question
                 sur nos produits, contactez-nous.
               </p>
+              <div className="flex gap-4 mt-4 items-center max-sm:justify-center">
+                <Link href="https://www.linkedin.com/company/rasberry-maroc/">
+                  <Linkedin />
+                </Link>
+                <Link href="https://www.instagram.com/rasberrymaroc/">
+                  <Instagram />
+                </Link>
+                <Link href="https://www.facebook.com/rasberrymaroc/">
+                  <Facebook />
+                </Link>
+              </div>
             </div>
 
             <Form {...form}>

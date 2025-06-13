@@ -9,11 +9,13 @@ function NavBar() {
 
   return (
     <nav className="flex items-center justify-between px-6 md:py-4 py-2 w-[80%] mx-auto rounded-[3.75rem] bg-white/10   backdrop-blur-[22px] mt-6">
+      <Link href="/" className="">
       <img
         src="/WhiteLogo.png"
         alt="Logo Mondial Berry"
         className="h-10 md:h-12 scale-80 md:scale-100"
-      />{" "}
+      />
+      </Link>
       <ul className="gap-4 text-white font-light lg:flex hidden">
         <li>
           <Link

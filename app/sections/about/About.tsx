@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="w-[80%] mx-auto text-primary mt-12">
+    <section className="w-[80%] mx-auto text-primary mt-14">
       <h2 className="text-3xl md:text-4xl italic font-semibold">
         À propos de nous
       </h2>

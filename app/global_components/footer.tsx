@@ -1,20 +1,40 @@
+"use client";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export const Footer = () => {
   return (
-    <footer className=" w-full  mt-24">
+    <footer className="w-full mt-24">
       <div className="bg-footer p-12">
-        <div className="w-[80%] mx-auto mt-18 flex md:gap-10 gap-6 md:flex-row flex-col text-white">
-          <div className="flex flex-col md:gap-6 gap-4">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="w-[80%] mx-auto mt-18 flex md:gap-10 gap-6 md:flex-row flex-col text-white"
+        >
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex flex-col md:gap-6 gap-4"
+          >
             <p className="font-bold text-2xl">À PROPOS DE</p>
             <span className="max-w-md font-normal md:leading-8 leading-6 md:text-md text-sm">
               Restez connecté à Mondial Berry pour les dernières mises à jour
               sur nos baies haut de gamme et nos pratiques durables. Votre
               satisfaction et vos commentaires sont nos principales priorités.
             </span>
-          </div>
+          </motion.div>
 
-          <div className="flex flex-col md:gap-6 gap-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex flex-col md:gap-6 gap-4"
+          >
             <p className="font-bold md:text-2xl text-xl">Explorer</p>
             <ul className="gap-4 text-white font-light flex flex-col ">
               <li>
@@ -48,8 +68,14 @@ export const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="flex flex-col md:gap-6 gap-4">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="flex flex-col md:gap-6 gap-4"
+          >
             <p className="font-bold text-2xl">CONTACT</p>
             <div className="gap-4 text-white font-light flex flex-col">
               <address className="md:text-md text-sm not-italic max-w-md font-normal md:leading-8 leading-6">
@@ -68,14 +94,17 @@ export const Footer = () => {
                 +212 528 322 993
               </a>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
 
-      <div className="mx-auto bg-secondary ">
+      <div
+        className="mx-auto bg-secondary"
+      >
         <p className="text-center text-[0.7rem] md:text-sm text-white font-light py-4">
           © {new Date().getFullYear()} Mondial Berry. Tous droits réservés.
         </p>
+
       </div>
     </footer>
   );

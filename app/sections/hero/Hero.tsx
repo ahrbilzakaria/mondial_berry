@@ -6,20 +6,26 @@ import {
 } from "../../global_components/contactButton";
 import { HeaderCard } from "../../global_components/headerCard";
 import { HeaderNbCard } from "../../global_components/headerNbCard";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
     <header className="w-full h-screen relative flex flex-col rounded-[3rem] border-[10px] border-white overflow-hidden">
-       <motion.div 
-        initial={{ opacity: 0, y: 20 }}
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className=""
-      ><NavBar /></motion.div>
-      
-      <img src="/BackgroundHome.webp" alt="" className="absolute inset-0 object-cover object-right w-full h-full -z-10" />
-      <motion.div 
+      >
+        <NavBar />
+      </motion.div>
+
+      <img
+        src="/BackgroundHome.webp"
+        alt=""
+        className="absolute inset-0 object-cover object-right w-full h-full -z-10"
+      />
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -49,7 +55,7 @@ export default function Hero() {
             Cultiver l'excellence, récolter la confiance.
           </p>
         </div>
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
@@ -58,14 +64,8 @@ export default function Hero() {
           <ContactButton />
           <VoirNotreGamme />
         </motion.div>
+
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-        >
-          <HeaderCard />
-        </motion.div>
-        <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
@@ -76,6 +76,7 @@ export default function Hero() {
           <HeaderNbCard number={200} description="Collaborateurs" />
         </motion.div>
       </motion.div>
+      <HeaderCard />
     </header>
   );
 }

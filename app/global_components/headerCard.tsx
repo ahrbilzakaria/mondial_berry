@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const HeaderCard = () => {
   return (
-    <div className="w-80 bg-white/6 backdrop-blur-md p-6  flex-col gap-4 rounded-2xl absolute bottom-10 right-40 hidden lg:flex">
+    <div className="w-80 bg-white/6 backdrop-blur-md p-6  flex-col gap-4 rounded-2xl absolute bottom-10 right-40 hidden lg:flex text-white">
       <div className="font-medium flex gap-2 items-center  text-xl tracking-wide">
         <svg
           xmlns="http://www.w3.org/2000/svg"

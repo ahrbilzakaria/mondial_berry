@@ -2,7 +2,7 @@ import { EngagementCard } from "../../global_components/engagementCard";
 
 export default function Engagements() {
   return (
-    <section className=" text-primary mt-12 relative overflow-hidden pb-12">
+    <section className="bg-[url(/accueil/img3.png)] bg-blend-hard-light bg-center  text-primary pt-12 relative  pb-12">
       <div className=" w-[80%] mx-auto flex flex-col items-start">
         <h2 className=" text-3xl md:text-4xl italic font-semibold">
           Nos engagements
@@ -26,11 +26,11 @@ export default function Engagements() {
         </div>
       </div>
 
-      <img
+      {/* <img
         src="/accueil/img3.webp"
         alt=""
         className="absolute max-sm:-bottom-0 -bottom-60 left-1/2 -translate-x-1/2 object-center -z-10 mix-blend-hard-light max-sm:scale-180 opacity-65 "
-      />
+      /> */}
     </section>
   );
 }

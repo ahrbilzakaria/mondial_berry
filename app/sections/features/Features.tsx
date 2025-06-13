@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function Features() {
   return (
     <section className="grid grid-rows-3 grid-cols-1 md:grid-cols-2 md:grid-rows-4 gap-4 w-[80%] mx-auto mt-18 md:mt-24">
