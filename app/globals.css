@@ -156,6 +156,13 @@
 
 }
 
+.bg-green {
+  background-image: url("/apropos/greenShape.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .zoom-image-in {
   @apply transition-transform duration-300 ease-in-out;
 }
@@ -185,4 +192,10 @@
 }
 *::-webkit-scrollbar { 
   display: none;  /* Older Safari and Chromium */
+}
+
+.playfair{
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
 }

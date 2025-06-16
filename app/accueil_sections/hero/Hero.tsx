@@ -26,9 +26,9 @@ export default function Hero() {
         className="absolute inset-0 object-cover object-right w-full h-full -z-10"
       />
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
         className="w-[80%] h-[80%] mx-auto text-white flex flex-col md:items-start max-sm:justify-center max-sm:-mt-10 mt-12"
       >
         <div>
@@ -56,7 +56,7 @@ export default function Hero() {
           </p>
         </div>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
           className="gap-3 md:mt-8 mt-5 flex flex-col md:flex-row items-center"

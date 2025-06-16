@@ -85,3 +85,20 @@ export function DecouvrezPlus() {
     </Link>
   );
 }
+
+export function ContactButtonAddon(props: { bg: string , arrow:string }) {
+  return (
+    <Link
+      href="/contact"
+      className={"w-fit h-fit text-white flex gap-4 overflow-hidden rounded-4xl items-center px-4 py-2 tracking-wide md:text-2xl text-md relative border-white/50 border-1"+" "+props.bg}
+    >
+      Contactez-nous
+      <div className={" p-1 md:p-2 rounded-4xl bg-white" + " " + props.arrow}>
+        <ArrowRight className="scale-75 md:scale-100"></ArrowRight>
+      </div>
+      <div className="absolute -bottom-15 left-1 ">
+        <img src="/Ellipse.png"></img>
+      </div>
+    </Link>
+  );
+}

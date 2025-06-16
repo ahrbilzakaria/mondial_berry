@@ -35,9 +35,9 @@ function NavBar() {
         </li>
         <li>
           <Link
-            href="/products"
+            href="/gamme"
             className={
-              pathName === "/products" ? "font-bold text-secondary" : ""
+              pathName === "/gamme" ? "font-bold text-secondary" : ""
             }
           >
             Gamme
