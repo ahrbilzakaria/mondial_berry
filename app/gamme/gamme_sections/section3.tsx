@@ -33,11 +33,11 @@ export const Section3 = () => {
       transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
       className="w-[80%] mx-auto text-primary mt-18 flex flex-col items-center"
     >
-      <div className="text-center">
-        <h2 className="text-4xl md:text-5xl max-w-2xl italic font-semibold">
+      <div className="text-center mx-auto">
+        <h2 className="text-4xl md:text-5xl max-w-2xl italic font-semibold mx-auto">
           Notre gamme de produits
         </h2>
-        <p className="text-2xl md:text-3xl max-w-2xl mt-4">
+        <p className="text-2xl md:text-3xl max-w-2xl mt-4 mx-auto">
           Des fruits rouges d'exception
         </p>
       </div>

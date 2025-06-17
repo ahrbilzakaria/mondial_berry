@@ -30,7 +30,7 @@ export const Section4 = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-2xl md:text-4xl max-w-lg italic font-semibold"
+          className="text-2xl md:text-4xl max-w-sm italic font-semibold"
         >
           DÉCOUVREZ LE GOÛT DE LA FRAÎCHEUR À LA BAIE DU MONDIAL
         </motion.h2>
@@ -39,7 +39,7 @@ export const Section4 = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-md md:text-xl tracking-wide max-w-xl"
+          className="text-md md:text-xl tracking-wide max-w-lg "
         >
           Découvrez la différence à chaque bouchée avec la gamme de fruits
           rouges haut de gamme de Mondial Berry. Notre engagement envers la
