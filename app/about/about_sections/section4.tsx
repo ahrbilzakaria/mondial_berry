@@ -30,7 +30,7 @@ export const Section4 = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
-        src="/apropos/worldMap.webp"
+        src="/apropos/map.webp"
         alt=""
         className="md:w-[80%] h-full object-cover mx-auto mt-6"
       />
