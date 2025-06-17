@@ -30,24 +30,21 @@ export const Section5 = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
-      className="w-[80%] mx-auto text-primary mt-24 flex flex-col items-center"
+      className="w-[80%] mx-auto text-primary my-48 flex flex-col items-center"
     >
       <div className="text-center mx-auto">
         <h2 className="text-4xl md:text-5xl max-w-3xl italic font-semibold">
-          Indicateurs Clés de Production
+          VOUS AVEZ DES QUESTIONS ?
         </h2>
-        <p className="text-2xl mx-auto md:text-3xl max-w-2xl mt-4 text-center">
-          Capacité de production
-        </p>
       </div>
-      <div className="w-4xl max-w-full mt-8 space-y-4">
+      <div className="w-4xl max-w-full mt-16 space-y-4">
         {AccordionContentArray.map((item, index) => (
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
-              <AccordionTrigger className="font-bold text-primary cursor-pointer ">
+              <AccordionTrigger  className="font-bold text-xl text-primary cursor-pointer ">
                 {item.question}
               </AccordionTrigger>
-              <AccordionContent className="text-primary border-b-1 border-primary rounded-none">
+              <AccordionContent className="text-primary text-xl border-b-1 border-primary rounded-none">
                 {item.answer}
               </AccordionContent>
             </AccordionItem>
