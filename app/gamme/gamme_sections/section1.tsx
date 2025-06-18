@@ -15,7 +15,7 @@ export const Section1 = () => {
       </h2>
 
       <p className="text-lg md:text-xl tracking-wide max-w-4xl mt-8">
-        Chez <strong>Mondial Berry</strong>, nous sommes spécialisés dans la
+        Chez <strong>Mondial Berry </strong>, nous sommes spécialisés dans la
         <strong>
           culture et la distribution d'une large variété de fruits rouges haut
           de gamme.

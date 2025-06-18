@@ -34,7 +34,7 @@ export const Section3 = () => {
       className="w-[80%] mx-auto text-primary mt-18 flex flex-col items-center"
     >
       <div className="text-center mx-auto">
-        <h2 className="text-4xl md:text-5xl max-w-2xl italic font-semibold mx-auto">
+        <h2 className="text-3xl md:text-4xl max-w-2xl italic font-semibold mx-auto">
           Notre gamme de produits
         </h2>
         <p className="text-2xl md:text-3xl max-w-2xl mt-4 mx-auto">

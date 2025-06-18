@@ -52,7 +52,7 @@ export const Tabs = ({
             }}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className={cn("relative px-4 py-2 rounded-lg", tabClassName)}
+            className={cn("relative md:px-4 px-2 py-2 rounded-lg", tabClassName)}
             style={{
               transformStyle: "preserve-3d",
             }}
@@ -68,7 +68,7 @@ export const Tabs = ({
               />
             )}
 
-            <span className="relative block text-primary dark:text-white font-semibold cursor-pointer">
+            <span className="relative block text-primary dark:text-white font-semibold cursor-pointer md:text-xl text-sm ">
               {tab.title}
             </span>
           </button>

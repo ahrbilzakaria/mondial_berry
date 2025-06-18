@@ -24,7 +24,7 @@ export const Section4 = () => {
       className="w-[80%] mx-auto text-primary mt-24 flex flex-col items-center"
     >
       <div className="text-center mx-auto">
-        <h2 className="text-4xl md:text-5xl max-w-3xl italic font-semibold">
+        <h2 className="text-3xl md:text-4xl max-w-3xl italic font-semibold">
           Indicateurs Clés de Production
         </h2>
         <p className="text-2xl mx-auto md:text-3xl max-w-2xl mt-4 text-center">
@@ -87,7 +87,7 @@ export const Section4 = () => {
           }}
         >
           <Indicateurs
-            number={1250}
+            number={4000}
             title="Tonnes"
             description="Production actuelle"
             type="green"

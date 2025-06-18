@@ -20,7 +20,7 @@ export const Section3 = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="w-[80%] mx-auto bg-white h-full flex flex-col gap-8 py-16 justify-center items-center rounded-t-2xl"
+        className="md:w-[80%] w-[95%] mx-auto bg-gradient-to-b from-white/50 to-white h-full backdrop-blur-lg flex flex-col gap-8 py-16 px-4 justify-center items-center rounded-t-2xl"
       >
         <motion.img
           src="/production/icon.png"
@@ -47,14 +47,14 @@ export const Section3 = () => {
             }
           }}
           whileHover={{ scale: 1.2 }}
-          className="md:h-34 md:w-34 h-28 w-28 border-8 border-[#E8CED4] rounded-full"
+          className="md:h-34 md:w-34 h-28 w-28 border-8  border-[#E8CED4] rounded-full"
         />
         <motion.p 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
           viewport={{ once: true }}
-          className="md:text-5xl text-3xl md:leading-14 leading-10 max-w-3xl text-center mx-auto text-primary"
+          className="md:text-5xl text-3xl md:leading-14 leading-10 max-w-3xl text-center mx-auto text-primary "
         >
           <span className="font-bold">Des produits écologiques</span>
           <br /> peuvent être fabriqués à<br /> partir de zéro

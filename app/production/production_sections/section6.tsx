@@ -2,7 +2,7 @@
 
 export const Section6 = () => {
     return (
-        <div className="max-w-[80%] w-4xl mx-auto mt-16 flex flex-col items-center">
+        <div className="md:max-w-[70%] w-[90%]   mx-auto mt-24 flex flex-col items-center">
             <div className="w-full p-4 text-center bg-accent rounded-t-2xl md:text-lg text-sm">
                 <span className="text-white ">
                     En cas d’urgence, appelez maintenant{' '}

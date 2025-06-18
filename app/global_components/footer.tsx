@@ -11,7 +11,7 @@ export const Footer = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-[80%] mx-auto mt-18 flex md:gap-10 gap-6 md:flex-row flex-col text-white"
+          className="md:w-[80%] mx-auto mt-18 flex md:gap-10 gap-6 md:flex-row flex-col text-white"
         >
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -35,7 +35,7 @@ export const Footer = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex flex-col md:gap-6 gap-4"
           >
-            <p className="font-bold md:text-2xl text-xl">Explorer</p>
+            <p className="font-bold md:text-2xl text-xl">EXPLORER</p>
             <ul className="gap-4 text-white font-light flex flex-col ">
               <li>
                 <Link className="hover:underline" href="/">

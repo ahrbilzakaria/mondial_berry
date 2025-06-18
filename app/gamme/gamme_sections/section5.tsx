@@ -24,7 +24,7 @@ export const Section5 = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
-        className="text-4xl text-center md:text-5xl max-w-2xl italic font-semibold"
+        className="text-center text-3xl md:text-4xl max-w-2xl italic font-semibold"
       >
         Pourquoi choisir Mondial Berry ?
       </motion.h2>
