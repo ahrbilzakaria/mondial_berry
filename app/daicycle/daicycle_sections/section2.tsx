@@ -15,7 +15,7 @@ export const Section2 = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.2, duration: 0.8 }}
+          transition={{ duration: 0.8 }}
           className="flex justify-center items-center gap-2 flex-col"
         >
           <h2 className="text-4xl md:text-5xl text-[#3B1E02] font-bold text-center ">

@@ -8,7 +8,7 @@ export const Section2 = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
       className="w-[80%] mx-auto text-primary mt-18 flex flex-col items-center"
     >
       <div className="text-center mx-auto">
@@ -55,7 +55,7 @@ export const Section2 = () => {
         <motion.img
           src="/production/img3.webp"
           alt=""
-          className="h-fit "
+          className="h-fit object-cover "
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}

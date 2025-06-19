@@ -20,7 +20,7 @@ export default function Hero() {
         className=" inset-0 object-cover h-full absolute w-full -z-10"
       />
       <motion.h1
-        className="md:text-6xl  lg:text-7xl text-2xl font-bold text-center md:mt-20 mb-24 md:max-w-4xl max-w-[80%] mx-auto"
+        className="md:text-6xl  lg:text-7xl text-2xl font-bold text-center md:mt-20 mb-16 md:max-w-4xl max-w-[80%] mx-auto"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}

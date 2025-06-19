@@ -7,7 +7,7 @@ export const Section4 = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
+      transition={{ duration: 0.8, ease: "easeOut"}}
       className="w-[80%] mx-auto text-primary mt-14"
     >
       <h2 className="text-3xl md:text-4xl max-w-2xl italic font-semibold">

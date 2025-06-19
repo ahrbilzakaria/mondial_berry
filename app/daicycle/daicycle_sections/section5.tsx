@@ -28,7 +28,8 @@ export const Section5 = () => {
               className="flex flex-col items-start justify-start max-w-xl gap-4"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: idx * 0.2 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1.8, delay: idx * 1.2 }}
             >
               <div className="flex gap-4 items-center">
                 <span className="font-semibold text-accent bg-primary py-3 rounded-lg md:w-[2.9rem] w-[3.7rem] text-center mx-auto text-xl">
@@ -45,7 +46,11 @@ export const Section5 = () => {
           ))}
         </div>
         <div className="overflow-hidden rounded-2xl">
-          <img src="/daicycle/img4.webp" alt="" className=" h-full hover:scale-110 transition-transform duration-300 ease-in-out " />
+          <img
+            src="/daicycle/img4.webp"
+            alt=""
+            className=" h-full hover:scale-110 transition-transform duration-300 ease-in-out "
+          />
         </div>
       </div>
     </motion.section>

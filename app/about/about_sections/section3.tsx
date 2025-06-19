@@ -22,7 +22,7 @@ export const Section3 = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
+      transition={{ duration: 0.8, ease: "easeOut", }}
       className="w-[80%] mx-auto text-primary"
     >
       <motion.p
@@ -65,7 +65,7 @@ export const Section3 = () => {
           <img
             src="/apropos/iso.png"
             alt=""
-            className="scale-75 md:scale-100"
+            className="scale-75 md:scale-100 object-cover"
           />
           <p className="md:text-xl text-md font-bold text-secondary">
             Entreprise certifiée ISO

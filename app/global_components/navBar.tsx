@@ -99,7 +99,7 @@ function NavBar() {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden absolute top-full left-0 w-full bg-white/80 rounded-4xl transform transition-all duration-400 ease-in-out shadow-2xl ${
+        className={`lg:hidden absolute top-full left-0 w-full bg-white/95  rounded-4xl transform transition-all duration-400 ease-in-out shadow-2xl ${
           show
             ? "opacity-100 translate-y-0"
             : "opacity-0 -translate-y-full pointer-events-none"

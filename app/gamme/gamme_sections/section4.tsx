@@ -29,7 +29,7 @@ export const Section4 = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8 }}
           className="text-2xl md:text-4xl max-w-sm italic font-semibold"
         >
           DÉCOUVREZ LE GOÛT DE LA FRAÎCHEUR À LA BAIE DU MONDIAL

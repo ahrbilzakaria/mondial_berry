@@ -7,7 +7,7 @@ export const Section2 = () => {
       initial={{ opacity: 0, scale: 0.95 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8, delay: 0.7 }}
+      transition={{ duration: 0.8 }}
       className="w-[80%] mx-auto relative mt-14 mb-16  md:p-36 p-10 max-sm:py-18  flex justify-center items-center "
     >
       <img

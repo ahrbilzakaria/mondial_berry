@@ -8,7 +8,7 @@ export const Section5 = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8, delay: 0.7 }}
+      transition={{ duration: 0.8}}
       className="w-[80%] mx-auto h-fit bg-green relative mt-12 gap-4 flex flex-col md:flex-row md:justify-between md:items-stretch md:px-12 rounded-4xl overflow-hidden"
     >
       <div className="flex flex-col justify-between items-start  w-full px-4 py-12 md:h-auto">
