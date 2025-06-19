@@ -17,10 +17,10 @@ const containerVariants = {
 export const Section4 = () => {
   return (
     <motion.section
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
+      transition={{ duration: 1, ease: "easeOut" }}
       className="w-[80%] mx-auto text-primary mt-24 flex flex-col items-center"
     >
       <div className="text-center mx-auto">
