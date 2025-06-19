@@ -47,7 +47,7 @@ export const Section2 = () => {
         <motion.img
           src="/production/img2.webp"
           alt=""
-          className=""
+          className="h-fit object-cover rounded-2xl "
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -55,7 +55,7 @@ export const Section2 = () => {
         <motion.img
           src="/production/img3.webp"
           alt=""
-          className="h-fit object-cover "
+          className="h-fit object-cover rounded-2xl"
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
