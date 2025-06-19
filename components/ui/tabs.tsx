@@ -52,7 +52,10 @@ export const Tabs = ({
             }}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className={cn("relative md:px-4 px-2 py-2 rounded-lg", tabClassName)}
+            className={cn(
+              "relative md:px-4 px-2 py-2 rounded-lg",
+              tabClassName
+            )}
             style={{
               transformStyle: "preserve-3d",
             }}
@@ -60,7 +63,7 @@ export const Tabs = ({
             {active.value === tab.value && (
               <motion.div
                 layoutId="clickedbutton"
-                transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
+                transition={{ type: "spring", bounce: 0.3, duration: 0.8 }}
                 className={cn(
                   "absolute inset-0 bg-gray-200 dark:bg-zinc-800 rounded-lg ",
                   activeTabClassName

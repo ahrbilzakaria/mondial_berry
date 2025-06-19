@@ -1,8 +1,23 @@
+"use client";
+import { motion } from "framer-motion";
+
 export const Section2 = () => {
   return (
-    <section className="w-full border-4 border-[#743600] mt-16 bg-[#FFF5EC] ">
-      <div className="w-[80%] mx-auto py-16 px-4 flex flex-col md:gap-12 gap-8 ">
-        <div className="flex justify-center items-center gap-2  flex-col">
+    <motion.section
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+      className="w-full border-4 border-[#743600] mt-28 bg-[#FFF5EC]"
+    >
+      <div className="w-[80%] mx-auto py-16 px-4 flex flex-col md:gap-12 gap-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+          className="flex justify-center items-center gap-2 flex-col"
+        >
           <h2 className="text-4xl md:text-5xl text-[#3B1E02] font-bold text-center ">
             Quality certificates
           </h2>
@@ -10,13 +25,27 @@ export const Section2 = () => {
             Our certifications guarantee the quality and safety of our
             conventional and organic products, nationally and internationally:
           </p>
-        </div>
+        </motion.div>
         <div className="w-full flex flex-wrap gap-8 items-center justify-center">
-          <img src="/daicycle/img1.png" alt="" className="md:h-full h-18" />
-          <img src="/daicycle/img3.png" alt="" className="md:h-full h-12" />
-          <img src="/daicycle/img2.png" alt="" className="md:h-full h-18" />
+          {[
+            "/daicycle/img1.png",
+            "/daicycle/img3.png",
+            "/daicycle/img2.png",
+          ].map((src, i) => (
+            <motion.img
+              key={src}
+              src={src}
+              alt=""
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2, duration: 0.8 }}
+              className={`md:h-full ${src.includes("img3") ? "h-12" : "h-18"}`}
+            />
+          ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };

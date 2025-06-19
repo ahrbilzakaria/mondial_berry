@@ -7,7 +7,7 @@ export const Section5 = () => {
     visible: { opacity: 1, y: 0 },
     hover: {
       y: -10,
-      transition: { duration: 0.2 },
+      transition: { duration: 0.8 },
     },
   };
 
@@ -16,14 +16,14 @@ export const Section5 = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
       className="w-[80%] mx-auto text-primary mt-18 flex flex-col items-center"
     >
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
         className="text-center text-3xl md:text-4xl max-w-2xl italic font-semibold"
       >
         Pourquoi choisir Mondial Berry ?
@@ -44,7 +44,7 @@ export const Section5 = () => {
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
           className="bg-gradient-to-b from-transparent to-[#B7DB88] text-primary flex flex-col items-start gap-6 justify-start md:p-8 p-4 max-w-xl h-full rounded-3xl cursor-pointer"
         >
           <img src="/gamme/img2.webp" alt="" />
@@ -59,7 +59,7 @@ export const Section5 = () => {
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
           className="bg-gradient-to-b from-transparent to-[#B7DB88] text-primary flex flex-col items-start gap-6 justify-start md:p-8 p-4 max-w-xl h-full rounded-3xl cursor-pointer"
         >
           <img src="/gamme/img3.webp" alt="" />

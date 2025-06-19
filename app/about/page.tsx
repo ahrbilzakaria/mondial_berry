@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Hero from "./about_sections/Hero";
 import { Section1 } from "./about_sections/section1";
 import { Section2 } from "./about_sections/section2";
@@ -9,11 +9,11 @@ import { motion } from "framer-motion";
 
 export default function AboutPage() {
   return (
-    <div >
+    <div>
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 0.2 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
         className="w-full"
       >
         <Hero />

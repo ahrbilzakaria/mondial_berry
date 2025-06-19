@@ -215,7 +215,7 @@ export const Contact = ({ version }: ContactProps) => {
           alt=""
           className="absolute md:-left-80 md:-bottom-80 -left-40 -bottom-20 md:scale-75 "
         />
-        <div className="z-10 mx-auto">
+        <div className="z-10 mx-auto mt-20">
           <div className=" lg:min-w-2xl md:min-w-xl max-sm:w-full">
             <div className=" max-sm:text-center text-white">
               <h2 className="text-3xl md:text-4xl font-bold ">

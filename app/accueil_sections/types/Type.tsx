@@ -2,13 +2,13 @@
 import { motion } from "framer-motion";
 import { DecouvrezPlus } from "@/app/global_components/contactButton";
 
-export default  function Type () {
+export default function Type() {
   return (
     <section className="w-[80%] mx-auto  mt-12 bg-types md:p-14 p-8   rounded-2xl md:rounded-4xl">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.2 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
         className="flex flex-col items-center justify-between text-white gap-6 md:gap-10"
       >
         <div className="flex md:gap-4  items-center bg-[#0931018F] md:px-6 pr-3 md:py-1 rounded-full border border-white/50">
@@ -59,7 +59,7 @@ export default  function Type () {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stopColor="white" />
-                <stop offset="1" stop-color="#5B8C51" />
+                <stop offset="1" stopColor="#5B8C51" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_9_1387"
@@ -69,8 +69,8 @@ export default  function Type () {
                 y2="33.9207"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="#5B8C51" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="#5B8C51" />
               </linearGradient>
             </defs>
           </svg>

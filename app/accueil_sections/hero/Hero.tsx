@@ -15,7 +15,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className=""
+        className="z-80"
       >
         <NavBar />
       </motion.div>
@@ -29,7 +29,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
-        className="w-[80%] h-[80%] mx-auto text-white flex flex-col md:items-start max-sm:justify-center max-sm:-mt-10 mt-12"
+        className="w-[80%] h-[80%] mx-auto text-white flex flex-col md:items-start max-sm:justify-center max-sm:-mt-10 mt-12 "
       >
         <div>
           {/* medium to large title  */}
@@ -59,7 +59,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="gap-3 md:mt-8 mt-5 flex flex-col md:flex-row items-center"
+          className="gap-3 md:mt-8 mt-5 flex flex-col md:flex-row items-center "
         >
           <ContactButton />
           <VoirNotreGamme />

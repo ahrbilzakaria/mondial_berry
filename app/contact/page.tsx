@@ -7,23 +7,20 @@ import { motion } from "framer-motion";
 export default function page() {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.8,delay: 0.7 }}
       className="h-screen flex items-center flex-col relative border-[10px] border-white w-full"
     >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="w-full absolute z-10"
+        className="w-full absolute z-80 "
       >
         <NavBar />
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
+        transition={{ duration: 0.8, delay: 0.4 }}
         className="w-full h-full"
       >
       <Contact version="page" />

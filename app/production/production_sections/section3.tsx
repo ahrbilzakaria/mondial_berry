@@ -1,12 +1,12 @@
-'use client'
-import { motion } from 'framer-motion'
+"use client";
+import { motion } from "framer-motion";
 
 export const Section3 = () => {
   return (
-    <motion.section 
+    <motion.section
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition={{ duration: 0.6 }}
+      transition={{ duration: 0.8 }}
       viewport={{ once: true }}
       className="w-full relative md:pt-30 pt-20 mt-24"
     >
@@ -15,7 +15,7 @@ export const Section3 = () => {
         alt=""
         className="absolute inset-0 object-cover w-full h-full -z-10"
       />
-      <motion.div 
+      <motion.div
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -31,25 +31,25 @@ export const Section3 = () => {
             scale: [1, 1.1, 1],
             borderColor: ["#E8CED4", "rgba(232, 206, 212, 0.3)", "#E8CED4"],
           }}
-          transition={{ 
+          transition={{
             type: "spring",
             stiffness: 260,
             damping: 20,
             borderColor: {
               duration: 2,
               repeat: Infinity,
-              ease: "easeInOut"
+              ease: "easeInOut",
             },
             scale: {
               duration: 2,
               repeat: Infinity,
-              ease: "easeInOut"
-            }
+              ease: "easeInOut",
+            },
           }}
           whileHover={{ scale: 1.2 }}
           className="md:h-34 md:w-34 h-28 w-28 border-8  border-[#E8CED4] rounded-full"
         />
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
@@ -62,4 +62,4 @@ export const Section3 = () => {
       </motion.div>
     </motion.section>
   );
-}
+};

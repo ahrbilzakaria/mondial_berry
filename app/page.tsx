@@ -17,7 +17,7 @@ export default function Home() {
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 0.4 }}
+        transition={{ duration: 0.8, delay: 0.4 }}
       >
         <Hero />
       </motion.section>
@@ -25,7 +25,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.7 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
       >
         <About />
       </motion.section>
@@ -33,7 +33,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.7 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
       >
         <Features />
       </motion.section>
@@ -41,19 +41,19 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.7 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
       >
         <Engagements />
       </motion.section>
       <Services />
-      
-        <Type />
-    
+
+      <Type />
+
       <motion.section
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.7 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
       >
         <Avantages />
       </motion.section>
@@ -61,7 +61,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.7 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
       >
         <AvantagesCards />
       </motion.section>
@@ -69,7 +69,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.7 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
       >
         <InfiniteScrollText
           text="Mondial Berry Export"
@@ -81,7 +81,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.7 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
       >
         <ContactSection />
       </motion.section>

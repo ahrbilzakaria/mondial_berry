@@ -7,7 +7,7 @@ export const Section2 = () => {
     visible: { opacity: 1, x: 0 },
     hover: {
       scale: 1.05,
-      transition: { duration: 0.2 },
+      transition: { duration: 0.8 },
     },
   };
 
@@ -16,7 +16,7 @@ export const Section2 = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
+      transition={{ duration: 0.8 }}
       className="w-full bg-gradient-to-r from-[#941936] to-[#FF6186] mt-18"
     >
       <div className="w-[80%] mx-auto py-8 flex gap-8 items-center justify-between flex-wrap">
@@ -24,7 +24,7 @@ export const Section2 = () => {
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white">
             Qualité sans compromis
@@ -72,7 +72,7 @@ export const Section2 = () => {
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
         >
           <img src="/gamme/img1.webp" alt="" className="rounded-2xl" />
         </motion.div>

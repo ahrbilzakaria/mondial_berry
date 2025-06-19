@@ -34,7 +34,7 @@ export const Section1 = () => {
               className={i === 1 ? "h-full w-1/3 " : "h-2/3 w-1/3"}
               initial={{ opacity: 0, y: 32 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
               whileHover={{
                 scale: 1.1,
                 boxShadow: "0 8px 32px rgba(0,0,0,0.15)",

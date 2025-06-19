@@ -19,7 +19,7 @@ export const Section4 = () => {
           ease: "linear",
           repeat: Infinity,
         },
-        opacity: { duration: 0.6 }, // handles fade-in
+        opacity: { duration: 0.8 }, // handles fade-in
       }}
       viewport={{ once: true }}
       className="text-primary mt-14 py-12"
@@ -29,7 +29,7 @@ export const Section4 = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           className="text-2xl md:text-4xl max-w-sm italic font-semibold"
         >
           DÉCOUVREZ LE GOÛT DE LA FRAÎCHEUR À LA BAIE DU MONDIAL
@@ -38,7 +38,7 @@ export const Section4 = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
           className="text-md md:text-xl tracking-wide max-w-lg "
         >
           Découvrez la différence à chaque bouchée avec la gamme de fruits
@@ -50,7 +50,7 @@ export const Section4 = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
         >
           <ContactButtonAddon arrow="text-accent" bg="bg-accent" />
         </motion.div>

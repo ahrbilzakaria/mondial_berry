@@ -1,16 +1,39 @@
-"use client"
-import { motion } from 'framer-motion';
-
+"use client";
+import { motion } from "framer-motion";
 
 export const Section1 = () => {
   return (
     <div className="w-[80%] mx-auto flex flex-col gap-12 mt-16">
-      <div className="max-w-3xl py-4 md:px-16 px-8 flex flex-col gap-2 items-center mx-auto [background-image:conic-gradient(from_180deg_at_50%_50%,_#941936_0deg,_#2E0811_360deg)] rounded-2xl">
-        <img src="/daicycle/svg1.svg" alt="" className='md:h-16 h-14' />
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 , y:20 }}
+        animate={{ opacity: 1, scale: 1 ,y:0 }}
+        transition={{
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
+        className="max-w-3xl py-4 md:px-16 px-8 flex flex-col gap-2 items-center mx-auto [background-image:conic-gradient(from_180deg_at_50%_50%,_#941936_0deg,_#2E0811_360deg)] rounded-2xl"
+      >
+        <motion.img
+          src="/daicycle/svg1.svg"
+          alt=""
+          className="md:h-16 h-14"
+          animate={{
+            scale: [1, 1.1, 1],
+            filter: [
+              "drop-shadow(0 0 0 #fff176)",
+              "drop-shadow(0 0 12px #FF6640)",
+              "drop-shadow(0 0 0 #fff176)",
+            ],
+          }}
+          transition={{
+            scale: { repeat: Infinity, duration: 4, ease: "easeInOut" },
+            filter: { repeat: Infinity, duration: 4, ease: "easeInOut" },
+          }}
+        />
         <p className="text-white md:text-2xl text-md text-center ">
           Nous cultivons les meilleurs fruits au monde
         </p>
-      </div>
+      </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -33,4 +56,4 @@ export const Section1 = () => {
       </motion.div>
     </div>
   );
-}
+};

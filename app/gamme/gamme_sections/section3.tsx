@@ -51,7 +51,7 @@ export const Section3 = () => {
               className="md:h-60 md:w-60 h-32 w-32  object-cover rounded-lg"
               initial={{ opacity: 0, y: 32 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
               whileHover={{
                 scale: 1.05,
                 zIndex: 1,

@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 export const Section3 = () => {
   return (
     <motion.section
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="w-[80%] mx-auto text-primary mt-14"
+      className="w-[80%] mx-auto text-primary mt-28"
     >
       <div className="w-full ">
         <h2 className="text-3xl md:text-4xl max-w-2xl italic font-semibold">
