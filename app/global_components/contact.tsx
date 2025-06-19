@@ -88,7 +88,7 @@ export const Contact = ({ version }: ContactProps) => {
   if (version === "accueil") {
     return (
       <section
-        className={`bg-secondary flex flex-col md:items-end items-center md:p-20 p-8   md:w-[80%] w-full max-w-7xl mx-auto md:rounded-2xl  mt-10 relative bg-gradient-to-br from-[#FF7C9B] to-[#941936] overflow-hidden`}
+        className={`bg-secondary flex flex-col md:items-end items-center md:p-20 p-8   md:w-[80%] w-full max-w-7xl mx-auto md:rounded-2xl   relative bg-gradient-to-br from-[#FF7C9B] to-[#941936] overflow-hidden`}
       >
         <img
           src="/accueil/RasberryContact.webp"

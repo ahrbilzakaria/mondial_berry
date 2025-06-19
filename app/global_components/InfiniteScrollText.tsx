@@ -34,19 +34,17 @@ export default function InfiniteScrollText({
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
 
-  // Convert speed to duration in seconds
   const getAnimationDuration = (speed: InfiniteScrollTextProps["speed"]) => {
     if (typeof speed === "number") return speed;
-
     switch (speed) {
       case "slow":
-        return 60;
+        return 80;
       case "medium":
-        return 30;
+        return 40;
       case "fast":
-        return 15;
+        return 30;
       case "ultra-fast":
-        return 8;
+        return 20;
       default:
         return 30;
     }
@@ -61,12 +59,10 @@ export default function InfiniteScrollText({
       const rect = containerRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight;
 
-      // Check if element is visible
       const visible = rect.top < windowHeight && rect.bottom > 0;
       setIsVisible(visible);
 
       if (visible) {
-        // Calculate scroll progress (0 to 1)
         const elementTop = rect.top;
         const elementHeight = rect.height;
         const progress = Math.max(
@@ -81,18 +77,15 @@ export default function InfiniteScrollText({
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Initial call
-
+    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, [scrollEffect]);
 
   const baseDuration = getAnimationDuration(speed);
-  // Modify speed based on scroll progress
   const dynamicDuration = scrollEffect
-    ? baseDuration * (0.5 + scrollProgress * 1.5)
+    ? baseDuration * (0.8 + scrollProgress * 1.5)
     : baseDuration;
 
-  // Calculate transform based on scroll
   const scrollTransform = scrollEffect
     ? `translateY(${(scrollProgress - 0.5) * 50}px)`
     : "translateY(0)";
@@ -102,23 +95,27 @@ export default function InfiniteScrollText({
   return (
     <div
       ref={containerRef}
-      className={`w-full py-30 overflow-hidden ${className}`}
+      className={`w-full overflow-hidden whitespace-nowrap ${className}`}
       style={{
         transform: scrollTransform,
         transition: "transform 0.1s ease-out",
       }}
     >
       <div
-        className="flex whitespace-nowrap"
+        className="inline-flex animate-scroll "
         style={{
-          animation: `scroll ${dynamicDuration}s linear infinite`,
+          animationDuration: `${dynamicDuration}s`,
           animationPlayState: scrollEffect && !isVisible ? "paused" : "running",
           opacity: scrollEffect ? Math.max(0.4, scrollProgress) : 1,
         }}
       >
-        {" "}
         <span
-          className={`lg:text-[10rem] md:text-[8rem] text-[5rem]  font-bold ${className}`}
+          className={`lg:text-[10rem] md:text-[8rem] text-[5rem] font-bold ${className} px-4`}
+        >
+          {scrollingText.repeat(10)}
+        </span>
+        <span
+          className={`lg:text-[10rem] md:text-[8rem] text-[5rem] font-bold ${className} px-4`}
         >
           {scrollingText.repeat(10)}
         </span>
@@ -127,11 +124,17 @@ export default function InfiniteScrollText({
       <style jsx>{`
         @keyframes scroll {
           0% {
-            transform: translateX(0);
+            transform: translateX(0%);
           }
           100% {
             transform: translateX(-50%);
           }
+        }
+
+        .animate-scroll {
+          animation-name: scroll;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
         }
       `}</style>
     </div>

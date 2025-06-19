@@ -73,8 +73,8 @@ export default function Home() {
       >
         <InfiniteScrollText
           text="Mondial Berry Export"
-          speed={"fast"}
-          className="text-secondary"
+          speed={"slow"}
+          className="text-secondary my-24"
         />
       </motion.section>
       <motion.section
