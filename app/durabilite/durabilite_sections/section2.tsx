@@ -8,7 +8,7 @@ export const Section2 = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
+      transition={{ duration: 0.8, ease: "easeOut"}}
       className="w-[80%] mx-auto text-primary mt-18 flex flex-col items-center"
     >
       <div className="text-center mx-auto">

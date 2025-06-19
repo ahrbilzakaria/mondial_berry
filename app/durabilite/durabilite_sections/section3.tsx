@@ -6,7 +6,7 @@ export const Section3 = () => {
       <div className="md:w-[50%] bg-accent md:p-36 p-18 max-h-6xl relative aspect-video">
         <video
           src="/durabilite/vid1.mp4"
-          className="absolute inset-0 w-full h-full object-cover mix-blend-multiply  "
+          className="absolute inset-0 w-screen h-full object-cover mix-blend-multiply  "
           autoPlay
           loop
           muted
@@ -22,7 +22,7 @@ export const Section3 = () => {
       <div className="relative md:w-[50%] bg-[#e93b64] md:p-36 p-18 max-h-6xl flex items-center justify-center">
         <video
           src="/durabilite/vid2.mp4"
-          className="absolute inset-0 w-full h-full object-cover mix-blend-multiply"
+          className="absolute inset-0 w-screen h-full object-cover mix-blend-multiply"
           autoPlay
           loop
           muted
