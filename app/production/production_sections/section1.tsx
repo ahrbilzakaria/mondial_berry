@@ -31,11 +31,12 @@ export const Section1 = () => {
               transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] },
             },
           }}
+          className="md:max-w-sm w-full"
         >
           <Production_block
             className="bg-secondary"
             svg="/production/svg1.svg"
-            content="AGRICULTURE ORGANIQUE RESPONSABILITÉ"
+            content="AGRICULTURE ORGANIQUE"
           />
         </motion.div>
         <motion.div
@@ -47,11 +48,12 @@ export const Section1 = () => {
               transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] },
             },
           }}
+          className="md:max-w-sm w-full"
         >
           <Production_block
             className="bg-accent"
             svg="/production/svg2.svg"
-            content="ÉCONOMIE INNOVANTE SOLUTIONS"
+            content="ÉCONOMIE INNOVANTE"
           />
         </motion.div>
         <motion.div
@@ -63,11 +65,12 @@ export const Section1 = () => {
               transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] },
             },
           }}
+          className="md:max-w-sm w-full"
         >
           <Production_block
             className="bg-primary"
             svg="/production/svg3.svg"
-            content="UN MEILLEUR STOCK VIVANT AGRICULTURE"
+            content="UN MEILLEUR STOCK VIVANT"
           />
         </motion.div>
       </motion.div>

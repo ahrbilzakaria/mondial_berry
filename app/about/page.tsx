@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 export default function AboutPage() {
   return (
-    <div className="flex items-center flex-col relative border-[10px] border-white w-full">
+    <div >
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

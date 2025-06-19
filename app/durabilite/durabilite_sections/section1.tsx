@@ -31,9 +31,10 @@ export const Section1 = () => {
               transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] },
             },
           }}
+          className="md:max-w-sm w-full"
         >
           <Production_block
-            className="bg-secondary"
+            className="bg-secondary "
             svg="/durabilite/svg2.svg"
             content="ÉCONOMIE INNOVANTE"
           />
@@ -47,9 +48,10 @@ export const Section1 = () => {
               transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] },
             },
           }}
+          className="md:max-w-sm w-full"
         >
           <Production_block
-            className="bg-accent"
+            className="bg-accent "
             svg="/durabilite/svg1.svg"
             content="RESPONSABILITÉ ENVIRONNEMENTALE"
           />
@@ -63,9 +65,10 @@ export const Section1 = () => {
               transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] },
             },
           }}
+          className="md:max-w-sm w-full"
         >
           <Production_block
-            className="bg-primary"
+            className="bg-primary "
             svg="/durabilite/svg3.svg"
             content="SOLUTIONS DURABLES"
           />
