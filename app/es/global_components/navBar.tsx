@@ -120,9 +120,9 @@ function NavBar() {
         <ul className="flex flex-col items-center space-y-4  p-6">
           <li>
             <Link
-              href="/es/"
+              href="/es"
               className={`text-primary text-lg ${
-                pathName === "/es/" ? "font-bold text-secondary" : ""
+                pathName === "/es" ? "font-bold text-secondary" : ""
               }`}
               onClick={() => setShow(false)}
             >

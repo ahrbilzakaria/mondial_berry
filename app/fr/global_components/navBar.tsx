@@ -104,26 +104,7 @@ function NavBar() {
                 ></div>
               </button>
             </div>
-      <button
-        className="lg:hidden relative z-50"
-        onClick={() => setShow(!show)}
-      >
-        <div
-          className={`w-6 h-0.5 bg-white transition-all ${
-            show ? "rotate-45 translate-y-1.5" : ""
-          }`}
-        ></div>
-        <div
-          className={`w-6 h-0.5 bg-white my-1.5 transition-all ${
-            show ? "opacity-0" : ""
-          }`}
-        ></div>
-        <div
-          className={`w-6 h-0.5 bg-white transition-all ${
-            show ? "-rotate-45 -translate-y-1.5" : ""
-          }`}
-        ></div>
-      </button>
+     
 
       {/* Mobile Menu */}
       <div
@@ -136,9 +117,9 @@ function NavBar() {
         <ul className="flex flex-col items-center space-y-4  p-6">
           <li>
             <Link
-              href="/fr/"
+              href="/fr"
               className={`text-primary text-lg ${
-                pathName === "/fr/" ? "font-bold text-secondary" : ""
+                pathName === "/fr" ? "font-bold text-secondary" : ""
               }`}
               onClick={() => setShow(false)}
             >
