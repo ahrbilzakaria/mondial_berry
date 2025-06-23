@@ -15,7 +15,7 @@ export default function ContactButtonNav() {
 export function ContactButton() {
   return (
     <Link
-      href="#contact"
+      href="/fr/contact"
       className="flex gap-4 overflow-hidden rounded-4xl items-center bg-accent px-4 py-2 tracking-wide md:text-2xl text-lg relative border-white/50 border-1"
     >
       Contactez-nous

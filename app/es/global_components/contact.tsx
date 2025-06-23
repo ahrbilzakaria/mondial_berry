@@ -103,7 +103,7 @@ export const Contact = ({ version }: ContactProps) => {
             </h2>
             <p className="md:text-md text-sm font-light md:mt-2">
               Nuestro servicio de atención al cliente está aquí para ayudarte.
-              Para toute question sur nos produits, contactez-nous.
+              Para cualquier pregunta sobre nuestros productos, contáctanos.
             </p>
             <div className="flex gap-4 mt-4 items-center max-sm:justify-center">
               <Link href="https://www.linkedin.com/company/rasberry-maroc/">
@@ -131,9 +131,9 @@ export const Contact = ({ version }: ContactProps) => {
                   <FormItem>
                     <FormControl>
                       <Input
-                        placeholder="Nom complet"
-                        className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm  backdrop-blur-2xl bg-white/10"
-                        {...field}
+                      placeholder="Nombre completo"
+                      className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm  backdrop-blur-2xl bg-white/10"
+                      {...field}
                       />
                     </FormControl>
                     <FormMessage className="text-white" />
@@ -148,7 +148,7 @@ export const Contact = ({ version }: ContactProps) => {
                     <FormControl>
                       <Input
                         type="Email"
-                        placeholder="votre@email.com"
+                        placeholder="tu@email.com"
                         className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm backdrop-blur-2xl bg-white/10"
                         {...field}
                       />
@@ -164,8 +164,8 @@ export const Contact = ({ version }: ContactProps) => {
                   <FormItem>
                     <FormControl>
                       <Input
-                        type="Téléphone"
-                        placeholder="Votre numéro"
+                        type="Teléfono"
+                        placeholder="Tu número"
                         className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm backdrop-blur-2xl bg-white/10"
                         {...field}
                       />
@@ -182,7 +182,7 @@ export const Contact = ({ version }: ContactProps) => {
                     <FormControl>
                       <textarea
                         className=" h-[150px] rounded-md  bg-white/50 px-3 py-2 text-sm md:text-lg text-black  placeholder:text-black/60   focus-visible:outline-none   disabled:cursor-not-allowed disabled:opacity-50 resize-none backdrop-blur-2xl "
-                        placeholder="Message..."
+                        placeholder="Mensaje..."
                         {...field}
                       />
                     </FormControl>
@@ -190,12 +190,6 @@ export const Contact = ({ version }: ContactProps) => {
                   </FormItem>
                 )}
               />
-              {/* <Button
-                type="submit"
-                className="bg-gradient-to-r from-[#FF4F79] to-[#941936] hover:text-secondary hover:from-[#FFFFFF] hover:to-[#FFFFFF] ease-in-out hover:animate-pulse cursor-pointer rounded-full w-full font-semibold md:text-xl text-md md:p-6  p-4 shadow-lg"
-              >
-                Envoyer
-              </Button> */}
               <AnimatedSendButton
                 isSubmitting={isSubmitting}
                 isSuccess={isSuccess}
