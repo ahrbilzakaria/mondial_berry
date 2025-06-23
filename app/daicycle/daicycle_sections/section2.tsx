@@ -40,7 +40,7 @@ export const Section2 = () => {
               whileInView={{ opacity: 1, y: 0 }}
               whileHover={{ scale: 1.05 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.2, duration: 0.8 }}
+              transition={{ delay: 0.2, duration: 0.3 }}
               className={`md:h-full ${src.includes("img3") ? "h-12" : "h-18"}`}
             />
           ))}

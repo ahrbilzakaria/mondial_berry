@@ -22,7 +22,7 @@ export const Section2 = () => {
           Chez <strong>Mondial Berry</strong>, nous sommes fiers de cultiver des
           baies savoureuses tout en respectant la planète. Notre engagement
           envers
-          <strong>l’excellence durable</strong> se traduit par des pratiques
+          <strong> l’excellence durable</strong> se traduit par des pratiques
           agricoles innovantes et écoresponsables, garantissant à la fois{" "}
           <strong>qualité</strong> et{" "}
           <strong>respect de l’environnement.</strong>

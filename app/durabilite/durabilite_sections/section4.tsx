@@ -13,8 +13,8 @@ export const Section4 = () => {
           <h2 className="font-bold md:text-3xl text-2xl">INNOVATION ET TECHNOLOGIE</h2>
           <p className="md:text-lg text-sm max-w-4xl">
             Nos installations de production sont équipées d’équipements de tri
-            et de calibrage modernes qui utilisent des capteurs optiques et
-            l’intelligence artificielle pour sélectionner les meilleurs fruits,
+            et de calibrage modernes qui utilisent <strong>des capteurs optiques et
+            l’intelligence artificielle pour sélectionner les meilleurs fruits </strong>,
             garantissant une qualité constante et minimisant les déchets.
           </p>
         </div>

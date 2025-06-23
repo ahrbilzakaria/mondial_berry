@@ -25,7 +25,7 @@ export const Section4 = () => {
     >
       <div className="text-center mx-auto">
         <h2 className="text-3xl md:text-4xl max-w-3xl italic font-semibold">
-          Indicateurs Clés de Production
+          Indicateurs clés de production
         </h2>
         <p className="text-2xl mx-auto md:text-3xl max-w-2xl mt-4 text-center">
           Capacité de production

@@ -63,18 +63,18 @@ const cards = [
     id: 1,
     description: "Emballage avancé",
     content:
-      "« Utiliser des solutions d’emballage innovantes et respectueuses de l’environnement, équiper les installations de technologies de pointe pour protéger les produits et prolonger leur durée de conservation. »",
+      "Utiliser des solutions d’emballage innovantes et respectueuses de l’environnement, équiper les installations de technologies de pointe pour protéger les produits et prolonger leur durée de conservation.",
   },
   {
     id: 2,
-    description: "Excellence & Quality",
+    description: "Excellence & Qualité",
     content:
-      "Quality is at the heart of everything we do. We maintain the highest standards in our work, ensuring that every project meets and exceeds expectations through meticulous attention to detail.",
+      "La qualité est au cœur de tout ce que nous faisons. Nous maintenons les normes les plus élevées dans notre travail, en veillant à ce que chaque projet réponde et dépasse les attentes grâce à une attention méticuleuse aux détails.",
   },
   {
     id: 3,
-    description: "Partnership & Trust",
+    description: "Partenariat & Confiance",
     content:
-      "Building lasting relationships with our clients is our priority. We believe in transparent communication, reliable service, and collaborative partnerships that drive mutual success.",
+      "Bâtir des relations durables avec nos clients est notre priorité. Nous croyons en une communication transparente, un service fiable et des partenariats collaboratifs qui favorisent une réussite mutuelle.",
   },
 ];

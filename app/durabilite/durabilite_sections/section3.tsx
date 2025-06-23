@@ -15,7 +15,7 @@ export const Section3 = () => {
         <p className="font-semibold text-xl md:text-3xl text-white md:max-w-[80%] text-center max-auto relative z-10">
           <span className="font-normal">
             Traçabilité complète de nos fruits grâce à
-          </span>
+          </span>{" "}
           des outils avancés de gestion de production.
         </p>
       </div>
@@ -29,10 +29,8 @@ export const Section3 = () => {
           playsInline
         ></video>
         <p className="font-semibold text-xl md:text-3xl text-white md:max-w-[80%] text-center max-auto z-10">
-          <span className="font-normal">
-            Traçabilité complète de nos fruits grâce à
-          </span>
-          des outils avancés de gestion de production.
+          <span className="font-normal">Conditionnement conforme, </span>
+          maîtrise de la chaîne du froid et logistique.
         </p>
       </div>
     </section>

@@ -18,6 +18,7 @@ export const Indicateurs = ({
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const containerRef = useRef(null);
+  const hasAnimated = useRef(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -35,8 +36,9 @@ export const Indicateurs = ({
   }, []);
 
   useEffect(() => {
-    if (!isVisible) return;
+    if (!isVisible || hasAnimated.current) return;
 
+    hasAnimated.current = true;
     let frame = 0;
     const frameRate = 30;
     const duration = 2000;

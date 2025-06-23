@@ -20,7 +20,7 @@ export const Section1 = () => {
           {" "}culture et la distribution d'une large variété de fruits rouges haut
           de gamme.
         </strong>
-        Notre engagement envers la <strong>qualité</strong> garantit que chaque
+        {" "}Notre engagement envers la <strong>qualité</strong> garantit que chaque
         fruit vous parvienne dans un état optimal :{" "}
         <strong>
           riche en goût, en fraîcheur et en bienfaits nutritionnels.

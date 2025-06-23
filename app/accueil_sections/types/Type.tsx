@@ -80,7 +80,7 @@ export default function Type() {
         </div>
         <h2 className="text-xl md:text-5xl lg:text-6xl text-center ">
           <strong>L’AGRICULTURE DES FRUITS</strong> ROUGES EST CRUCIALE POUR UN
-          <strong>DÉVELOPPEMENT FUTUR</strong> DURABLE
+          <strong> DÉVELOPPEMENT FUTUR</strong> DURABLE
         </h2>
         <DecouvrezPlus />
       </motion.div>
