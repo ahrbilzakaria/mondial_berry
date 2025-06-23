@@ -208,116 +208,115 @@ export const Contact = ({ version }: ContactProps) => {
   } else {
     return (
       <section
-        className={`bg-secondary flex flex-col md:items-end items-center justify-center md:p-40 p-8  w-full mx-auto rounded-[3rem] h-full relative bg-gradient-to-br from-[#FF7C9B] to-[#941936] overflow-hidden`}
+      className={`bg-secondary flex flex-col md:items-end items-center justify-center md:p-40 p-8  w-full mx-auto rounded-[3rem] h-full relative bg-gradient-to-br from-[#FF7C9B] to-[#941936] overflow-hidden`}
       >
-        <img
-          src="/accueil/RasberryContact.webp"
-          alt=""
-          className="absolute md:-left-80 md:-bottom-80 -left-40 -bottom-20 md:scale-75 "
-        />
-        <div className="z-10 mx-auto mt-20">
-          <div className=" lg:min-w-2xl md:min-w-xl max-sm:w-full">
-            <div className=" max-sm:text-center text-white">
-              <h2 className="text-3xl md:text-4xl font-bold ">
-                Contactez<span className="font-medium">-nous</span>
-              </h2>
-              <p className="md:text-md text-sm font-light md:mt-2">
-                Notre service client est là pour vous aider. Pour toute question
-                sur nos produits, contactez-nous.
-              </p>
-              <div className="flex gap-4 mt-4 items-center max-sm:justify-center">
-                <Link href="https://www.linkedin.com/company/rasberry-maroc/">
-                  <Linkedin />
-                </Link>
-                <Link href="https://www.instagram.com/rasberrymaroc/">
-                  <Instagram />
-                </Link>
-                <Link href="https://www.facebook.com/rasberrymaroc/">
-                  <Facebook />
-                </Link>
-              </div>
-            </div>
-
-            <Form {...form}>
-              <form
-                onSubmit={form.handleSubmit(onSubmit)}
-                className="space-y-6 md:mt-8 mt-6"
-              >
-                {" "}
-                <FormField
-                  control={form.control}
-                  name="fullName"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormControl>
-                        <Input
-                          placeholder="Nom complet"
-                          className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm  backdrop-blur-2xl bg-white/10"
-                          {...field}
-                        />
-                      </FormControl>
-                      <FormMessage className="text-white" />
-                    </FormItem>
-                  )}
-                />
-                <FormField
-                  control={form.control}
-                  name="email"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormControl>
-                        <Input
-                          type="Email"
-                          placeholder="votre@email.com"
-                          className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm backdrop-blur-2xl bg-white/10"
-                          {...field}
-                        />
-                      </FormControl>
-                      <FormMessage className="text-white" />
-                    </FormItem>
-                  )}
-                />
-                <FormField
-                  control={form.control}
-                  name="telephone"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormControl>
-                        <Input
-                          type="Téléphone"
-                          placeholder="Votre numéro"
-                          className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm backdrop-blur-2xl bg-white/10"
-                          {...field}
-                        />
-                      </FormControl>
-                      <FormMessage className="text-white" />
-                    </FormItem>
-                  )}
-                />
-                <FormField
-                  control={form.control}
-                  name="message"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormControl>
-                        <textarea
-                          className=" h-[150px] rounded-md  bg-white/50 px-3 py-2 text-sm md:text-lg  placeholder:text-black focus-visible:outline-none   disabled:cursor-not-allowed disabled:opacity-50 resize-none backdrop-blur-2xl "
-                          placeholder="Message..."
-                          {...field}
-                        />
-                      </FormControl>
-                      <FormMessage className="text-white" />
-                    </FormItem>
-                  )}
-                />
-                <AnimatedSendButton
-                  isSubmitting={isSubmitting}
-                  isSuccess={isSuccess}
-                />
-              </form>
-            </Form>
+      <img
+        src="/accueil/RasberryContact.webp"
+        alt=""
+        className="absolute md:-left-80 md:-bottom-80 -left-40 -bottom-20 md:scale-75 "
+      />
+      <div className="z-10 mx-auto mt-20">
+        <div className=" lg:min-w-2xl md:min-w-xl max-sm:w-full">
+        <div className=" max-sm:text-center text-white">
+          <h2 className="text-3xl md:text-4xl font-bold ">
+          Contácta<span className="font-medium">nos</span>
+          </h2>
+          <p className="md:text-md text-sm font-light md:mt-2">
+          Nuestro servicio de atención al cliente está aquí para ayudarte. Para cualquier pregunta sobre nuestros productos, contáctanos.
+          </p>
+          <div className="flex gap-4 mt-4 items-center max-sm:justify-center">
+          <Link href="https://www.linkedin.com/company/rasberry-maroc/">
+            <Linkedin />
+          </Link>
+          <Link href="https://www.instagram.com/rasberrymaroc/">
+            <Instagram />
+          </Link>
+          <Link href="https://www.facebook.com/rasberrymaroc/">
+            <Facebook />
+          </Link>
           </div>
         </div>
+
+        <Form {...form}>
+          <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="space-y-6 md:mt-8 mt-6"
+          >
+          {" "}
+          <FormField
+            control={form.control}
+            name="fullName"
+            render={({ field }) => (
+            <FormItem>
+              <FormControl>
+              <Input
+                placeholder="Nombre completo"
+                className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm  backdrop-blur-2xl bg-white/10"
+                {...field}
+              />
+              </FormControl>
+              <FormMessage className="text-white" />
+            </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+            <FormItem>
+              <FormControl>
+              <Input
+                type="Email"
+                placeholder="tu@email.com"
+                className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm backdrop-blur-2xl bg-white/10"
+                {...field}
+              />
+              </FormControl>
+              <FormMessage className="text-white" />
+            </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name="telephone"
+            render={({ field }) => (
+            <FormItem>
+              <FormControl>
+              <Input
+                type="Teléfono"
+                placeholder="Tu número"
+                className=" border-0 border-b-2 shadow-none rounded-md p-6 placeholderWhite text-white md:text-lg text-sm backdrop-blur-2xl bg-white/10"
+                {...field}
+              />
+              </FormControl>
+              <FormMessage className="text-white" />
+            </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name="message"
+            render={({ field }) => (
+            <FormItem>
+              <FormControl>
+              <textarea
+                className=" h-[150px] rounded-md  bg-white/50 px-3 py-2 text-sm md:text-lg  placeholder:text-black focus-visible:outline-none   disabled:cursor-not-allowed disabled:opacity-50 resize-none backdrop-blur-2xl "
+                placeholder="Mensaje..."
+                {...field}
+              />
+              </FormControl>
+              <FormMessage className="text-white" />
+            </FormItem>
+            )}
+          />
+          <AnimatedSendButton
+            isSubmitting={isSubmitting}
+            isSuccess={isSuccess}
+          />
+          </form>
+        </Form>
+        </div>
+      </div>
       </section>
     );
   }
