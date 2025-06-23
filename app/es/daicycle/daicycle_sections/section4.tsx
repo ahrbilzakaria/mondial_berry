@@ -1,24 +1,20 @@
-'use client'
+"use client";
 
-import { AnimatePresence } from "framer-motion"
+import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
 import { i } from "framer-motion/client";
 import { useEffect, useState } from "react";
 import { set } from "zod";
 
-
-
-
 export const Section4 = () => {
-    const [card, setCard] = useState(1);
+  const [card, setCard] = useState(1);
 
-    useEffect(() => {
-         const interval = setInterval(()=>{
-            setCard((prev) => (prev + 1) % cards.length);
-        },3000)
-        return () => clearInterval(interval);
-    }, [card]);
-
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCard((prev) => (prev + 1) % cards.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [card]);
 
   return (
     <section className="w-full lg:py-32 md:py-26 py-20 bg-gradient-to-b from-white to-primary lg:h-[80vh] md:h-[60vh] h-[50vh] flex flex-col items-center justify-between mt-14">
@@ -43,8 +39,8 @@ export const Section4 = () => {
           {cards.map((_, idx) => (
             <button
               key={idx}
-              onClick={() => {setCard(idx)
-                
+              onClick={() => {
+                setCard(idx);
               }}
               className={`md:h-6 md:w-6 h-4 w-4 transition-colors duration-300 rounded-full cursor-pointer  ${
                 card === idx ? "bg-secondary " : "bg-white/25 "
@@ -55,8 +51,7 @@ export const Section4 = () => {
       </div>
     </section>
   );
-}
-
+};
 
 const cards = [
   {

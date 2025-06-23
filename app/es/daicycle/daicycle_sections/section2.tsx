@@ -22,9 +22,9 @@ export const Section2 = () => {
             Certificados de calidad
           </h2>
           <p className="text-[#3B1E02] text-center text-lg md:text-xl tracking-wide max-w-4xl ">
-            Nuestras certificaciones garantizan la calidad y seguridad de nuestros
-            productos convencionales y orgánicos, tanto a nivel nacional como
-            internacional:
+            Nuestras certificaciones garantizan la calidad y seguridad de
+            nuestros productos convencionales y orgánicos, tanto a nivel
+            nacional como internacional:
           </p>
         </motion.div>
         <div className="w-full flex flex-wrap gap-8 items-center justify-center">

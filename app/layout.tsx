@@ -1,14 +1,14 @@
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="" >
+    <html lang="fr" >
       <body >
         {children}
       </body>
     </html>
   );
 }
+

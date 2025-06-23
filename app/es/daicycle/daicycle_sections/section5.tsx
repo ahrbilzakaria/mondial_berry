@@ -29,7 +29,7 @@ export const Section5 = () => {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.8, delay:  1+idx * 0.2 }}
+              transition={{ duration: 0.8, delay: 1 + idx * 0.2 }}
             >
               <div className="flex gap-4 items-center">
                 <span className="font-semibold text-accent bg-primary py-3 rounded-lg md:w-[2.9rem] w-[3.7rem] text-center mx-auto text-xl">
