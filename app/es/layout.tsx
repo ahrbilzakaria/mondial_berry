@@ -105,7 +105,7 @@ const montserrat = localFont({
 export const metadata: Metadata = {
   title: "Mondial Berry",
   description:
-    "Bienvenue sur le site de Mondial Berry, votre destination pour les meilleures baies du monde.",
+    "Bienvenido al sitio de Mondial Berry, tu destino para las mejores bayas del mundo.",
 };
 
 export default function Layout({
