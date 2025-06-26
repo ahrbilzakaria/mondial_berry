@@ -21,37 +21,37 @@ function NavBar() {
       <ul className="gap-4 text-white font-light lg:flex hidden">
         <li>
           <Link
-            href="/fr"
-            className={pathName === "/fr" ? "font-bold text-secondary" : ""}
+            href="/en/"
+            className={pathName === "/en" ? "font-bold text-secondary" : ""}
           >
-            Accueil
+            Home
           </Link>
         </li>
         <li>
           <Link
-            href="/fr/about"
+            href="/en/about"
             className={
-              pathName === "/fr/about" ? "font-bold text-secondary" : ""
+              pathName === "/en/about" ? "font-bold text-secondary" : ""
             }
           >
-            À propos
+            About
           </Link>
         </li>
         <li>
           <Link
-            href="/fr/gamme"
+            href="/en/gamme"
             className={
-              pathName === "/fr/gamme" ? "font-bold text-secondary" : ""
+              pathName === "/en/gamme" ? "font-bold text-secondary" : ""
             }
           >
-            Gamme
+            Range
           </Link>
         </li>
         <li>
           <Link
-            href="/fr/production"
+            href="/en/production"
             className={
-              pathName === "/fr/production" ? "font-bold text-secondary" : ""
+              pathName === "/en/production" ? "font-bold text-secondary" : ""
             }
           >
             Production
@@ -59,22 +59,22 @@ function NavBar() {
         </li>
         <li>
           <Link
-            href="/fr/durabilite"
+            href="/en/durabilite"
             className={
-              pathName === "/fr/durabilite" ? "font-bold text-secondary" : ""
+              pathName === "/en/durabilite" ? "font-bold text-secondary" : ""
             }
           >
-            Durabilité
+            Sustainability
           </Link>
         </li>
         <li>
           <Link
-            href="/fr/experience"
+            href="/en/experience"
             className={
-              pathName === "/fr/experience" ? "font-bold text-secondary" : ""
+              pathName === "/en/experience" ? "font-bold text-secondary" : ""
             }
           >
-            Expérience
+            Experience
           </Link>
         </li>
       </ul>
@@ -119,42 +119,42 @@ function NavBar() {
         <ul className="flex flex-col items-center space-y-4  p-6">
           <li>
             <Link
-              href="/fr"
+              href="/en"
               className={`text-primary text-lg ${
-                pathName === "/fr" ? "font-bold text-secondary" : ""
+                pathName === "/en" ? "font-bold text-secondary" : ""
               }`}
               onClick={() => setShow(false)}
             >
-              Accueil
+              Home
             </Link>
           </li>
           <li>
             <Link
-              href="/fr/about"
+              href="/en/about"
               className={`text-primary text-lg ${
-                pathName === "/fr/about" ? "font-bold text-secondary" : ""
+                pathName === "/en/about" ? "font-bold text-secondary" : ""
               }`}
               onClick={() => setShow(false)}
             >
-              À propos
+              About
             </Link>
           </li>
           <li>
             <Link
-              href="/fr/gamme"
+              href="/en/gamme"
               className={`text-primary text-lg ${
-                pathName === "/fr/gamme" ? "font-bold text-secondary" : ""
+                pathName === "/en/gamme" ? "font-bold text-secondary" : ""
               }`}
               onClick={() => setShow(false)}
             >
-              Gamme
+              Range
             </Link>
           </li>
           <li>
             <Link
-              href="/fr/production"
+              href="/en/production"
               className={`text-primary text-lg ${
-                pathName === "/fr/production" ? "font-bold text-secondary" : ""
+                pathName === "/en/production" ? "font-bold text-secondary" : ""
               }`}
               onClick={() => setShow(false)}
             >
@@ -163,20 +163,20 @@ function NavBar() {
           </li>
           <li>
             <Link
-              href="/fr/durabilite"
+              href="/en/durabilite"
               className={`text-primary text-lg ${
-                pathName === "/fr/durabilite" ? "font-bold text-secondary" : ""
+                pathName === "/en/durabilite" ? "font-bold text-secondary" : ""
               }`}
               onClick={() => setShow(false)}
             >
-              Durabilité
+              Sustainability
             </Link>
           </li>
           <li>
             <Link
-              href="/fr/daicycle"
+              href="/en/daicycle"
               className={`text-primary text-lg ${
-                pathName === "/fr/daicycle" ? "font-bold text-secondary" : ""
+                pathName === "/en/daicycle" ? "font-bold text-secondary" : ""
               }`}
               onClick={() => setShow(false)}
             >

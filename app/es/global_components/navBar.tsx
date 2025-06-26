@@ -69,12 +69,12 @@ function NavBar() {
         </li>
         <li>
           <Link
-            href="/es/daicycle"
+            href="/es/experience"
             className={
-              pathName === "/es/daicycle" ? "font-bold text-secondary" : ""
+              pathName === "/es/experience" ? "font-bold text-secondary" : ""
             }
           >
-            Daicycle
+            Experiencia
           </Link>
         </li>
       </ul>
@@ -84,9 +84,8 @@ function NavBar() {
         <ContactButtonNav />
       </div>
       <div className="lg:hidden flex items-center gap-3">
-       
-          <LanguageButton />
-        
+        <LanguageButton />
+
         <button
           className="lg:hidden relative z-50"
           onClick={() => setShow(!show)}

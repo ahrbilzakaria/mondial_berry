@@ -63,8 +63,8 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="hover:underline" href="/fr/daicycle">
-                  Daicycle
+                <Link className="hover:underline" href="/fr/experience">
+                  Expérience
                 </Link>
               </li>
             </ul>
@@ -98,13 +98,10 @@ export const Footer = () => {
         </motion.div>
       </div>
 
-      <div
-        className="mx-auto bg-secondary"
-      >
+      <div className="mx-auto bg-secondary">
         <p className="text-center text-[0.7rem] md:text-sm text-white font-light py-4">
           © {new Date().getFullYear()} Mondial Berry. Tous droits réservés.
         </p>
-
       </div>
     </footer>
   );
