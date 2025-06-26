@@ -60,7 +60,7 @@ export const Section3 = () => {
         directivo eficaz, con grandes valores humanos para impulsar nuestro
         crecimiento.
       </p>
-      <div className="flex justify-center items-center mt-12 w-full">
+      {/* <div className="flex justify-center items-center mt-12 w-full">
         <div className="flex items-center md:gap-4 gap-2 md:p-4 p-2 border-2 border-secondary rounded-lg ">
           <img
             src="/apropos/iso.png"
@@ -71,7 +71,7 @@ export const Section3 = () => {
             Empresa certificada ISO
           </p>
         </div>
-      </div>
+      </div> */}
     </motion.section>
   );
 };

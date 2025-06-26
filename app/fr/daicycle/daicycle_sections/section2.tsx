@@ -18,12 +18,13 @@ export const Section2 = () => {
           transition={{ duration: 0.8 }}
           className="flex justify-center items-center gap-2 flex-col"
         >
-          <h2 className="text-4xl md:text-5xl text-[#3B1E02] font-bold text-center ">
-            Quality certificates
-          </h2>
+            <h2 className="text-4xl md:text-5xl text-[#3B1E02] font-bold text-center ">
+            Certificats de qualité
+            </h2>
           <p className="text-[#3B1E02] text-center text-lg md:text-xl tracking-wide max-w-4xl ">
-            Our certifications guarantee the quality and safety of our
-            conventional and organic products, nationally and internationally:
+            Nos certifications garantissent la qualité et la sécurité de nos
+            produits conventionnels et biologiques, tant au niveau national
+            qu'international:
           </p>
         </motion.div>
         <div className="w-full flex flex-wrap gap-8 items-center justify-center">

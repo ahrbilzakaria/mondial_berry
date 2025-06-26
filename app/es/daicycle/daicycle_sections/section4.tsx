@@ -12,7 +12,7 @@ export const Section4 = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCard((prev) => (prev + 1) % cards.length);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [card]);
 
@@ -25,7 +25,7 @@ export const Section4 = () => {
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 100 }}
-          transition={{ duration: 0.5, ease: "anticipate" }}
+          transition={{ duration: 0.7, ease: "anticipate" }}
         >
           <h3 className="lg:text-5xl md:text-3xl text-xl leading-[110%] text-primary">
             {cards[card].content}

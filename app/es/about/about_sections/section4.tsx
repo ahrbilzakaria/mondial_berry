@@ -14,8 +14,7 @@ export const Section4 = () => {
         Red y desarrollo
       </h2>
       <p className="text-lg md:text-xl tracking-wide max-w-4xl mt-8">
-        Un grupo sólido compuesto por varias entidades: Mondial Berry Export
-        SARL MBN Farms SARM Daimond Berry SA Berry-Max SARL Para Agri SARL
+        Un grupo sólido compuesto por varias entidades:
       </p>
 
       <ul className="text-lg md:text-xl tracking-wide font-semibold max-w-4xl mt-4 list-disc list-inside">
